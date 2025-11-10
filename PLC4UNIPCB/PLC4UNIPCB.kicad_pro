@@ -560,14 +560,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -613,6 +637,118 @@
     [
       "20dd9fa8-33e5-4e01-8b4a-8cb5828152c9",
       "Root"
+    ],
+    [
+      "ef44eee8-cd41-4527-92e2-6c408c0d0d91",
+      "Board-PLC4UNI-G1W"
+    ],
+    [
+      "e98ee65e-ee05-4d3d-8906-03b9f7fcdaaf",
+      "RS485_Module1_protect"
+    ],
+    [
+      "4e043843-9092-4e16-9c41-7d1516f6f132",
+      "PLC4UNI"
+    ],
+    [
+      "253ff188-3e0d-433d-bf9c-a456b24e8b47",
+      "RS485_protection"
+    ],
+    [
+      "c6bbb3ed-b60d-44fc-9c2e-d61ac846ae2a",
+      "Input_NPN1_Opto1"
+    ],
+    [
+      "7d73415a-6d92-4775-9fde-5e791787ec39",
+      "Input_PNP2_Opto"
+    ],
+    [
+      "a64cb790-5c23-4d69-a66a-34b53e46be12",
+      "Output_NPN_Opto1"
+    ],
+    [
+      "0fc95d3e-4d33-47f3-9185-73d40a4e2fdb",
+      "Output_NPN_Opto"
+    ],
+    [
+      "82682a40-f2c8-4ae2-a13e-2b4ac848d816",
+      "Input_0-10V"
+    ],
+    [
+      "56eed3b9-401a-4a33-b005-aafbee361f70",
+      "Output_0-10V"
+    ],
+    [
+      "a36fd704-50bc-487f-b17e-03dca1f9606b",
+      "Input_4-20mA"
+    ],
+    [
+      "958801d9-c9be-42d7-90ca-cda10621adf1",
+      "Output_4-20mA"
+    ],
+    [
+      "179fa2a1-8ebb-4d08-91f9-c19535201df9",
+      "CT"
+    ],
+    [
+      "f1e654b0-25b3-4d21-b120-b723826c6cea",
+      "VAC"
+    ],
+    [
+      "59861780-d6fb-414a-827f-edc9de870fb9",
+      "Input_NPN1_Opto"
+    ],
+    [
+      "ec765b85-69ea-4c2e-a942-0a3f3b20d4c9",
+      "Input_NPN1"
+    ],
+    [
+      "993499e7-3317-45fe-8d12-a8e3207aa57a",
+      "Input_PNP1_Opto"
+    ],
+    [
+      "38f0ca6d-488a-4d63-8ce5-819a3170e6c7",
+      "Input_PNP2"
+    ],
+    [
+      "27c9874e-724a-49e5-be4f-e6cf4f8914b4",
+      "Input_NPN"
+    ],
+    [
+      "c7b7dc21-09c9-4c48-b8ee-16ba36268465",
+      "Output_NPN1"
+    ],
+    [
+      "bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc",
+      "Input_PNP"
+    ],
+    [
+      "1cb91f74-1ae1-4aba-8186-eb0d02dff832",
+      "OutputRelay1"
+    ],
+    [
+      "6e0a4231-a29c-4b17-b5ca-830aaf582073",
+      "OutRelay2"
+    ],
+    [
+      "f88419f1-7509-466f-a5de-8c8fe3b5d54e",
+      "Output_NPN"
+    ],
+    [
+      "64ab8d6d-059d-42d1-9a2b-2029e05ddd49",
+      "Output_PNP1"
+    ],
+    [
+      "edb09c82-e8f5-4acd-92ec-c54ccec16586",
+      "Output_PNP"
+    ],
+    [
+      "a9ebe30d-0033-46ec-b068-5977fa795ffb",
+      "Output_PNP2"
+    ],
+    [
+      "1502bf18-a581-4d1e-b057-dc61d013381d",
+      "Output_4-20mA1"
     ]
   ],
   "text_variables": {}
