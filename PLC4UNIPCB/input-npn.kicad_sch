@@ -317,7 +317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT_AKL:BFN26"
+		(symbol "PCM_Transistor_BJT_AKL:BC817"
 			(pin_names
 				(hide yes)
 			)
@@ -333,7 +333,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BFN26"
+			(property "Value" "BC817"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -342,7 +342,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -351,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/7b5ea7386544f524d0315334956093bb/BC817-16.215.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -360,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
+			(property "Description" "NPN SOT-23 transistor, 45V, 500mA, 250mW, Complementary to BC807, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -369,7 +369,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NPN BFN26"
+			(property "ki_keywords" "transistor NPN BC817"
 				(at 0 0 0)
 				(effects
 					(font
@@ -378,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BFN26_0_1"
+			(symbol "BC817_0_1"
 				(polyline
 					(pts
 						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(symbol "BFN26_1_1"
+			(symbol "BC817_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -723,12 +723,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 119.38 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fa297f3-0b7e-4640-a96f-8a59ed6035a0")
+	)
+	(junction
+		(at 100.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ce1a7c-b32b-4ca9-b7d1-ebc7a8cc8bd1")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d6088e-f6de-40da-9c35-d0bbb7ce098d")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e57b2ff-8b2d-4fa1-94e1-715d85bac667")
 	)
 	(wire
 		(pts
@@ -742,13 +893,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 104.14 106.68)
+			(xy 100.33 91.44) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6823c38c-dd14-4ed5-8a25-3e56c905eee7")
+		(uuid "6c03f61b-f652-4bb6-a521-00a0c5d410e5")
 	)
 	(wire
 		(pts
@@ -782,6 +933,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e848a3ac-fef3-4adc-b36f-5e1687052393")
+	)
+	(wire
+		(pts
 			(xy 119.38 99.06) (xy 119.38 101.6)
 		)
 		(stroke
@@ -803,7 +964,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 101.6 106.68 180)
+		(at 87.63 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -822,7 +983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "005056d1-f470-448c-b1ed-ae23885affe5")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 116.84 91.4399 0)
 			(effects
 				(font
@@ -885,92 +1046,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
-					(reference "R?")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT_AKL:BFN26")
-		(at 116.84 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59b4718a-776d-40ca-aca3-305dd8db3a34")
-		(property "Reference" "Q?"
-			(at 121.92 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BFN26"
-			(at 121.92 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/43310f91a0e397761035f1d1abdd24c6/BFN24.pdf"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-23 high voltage transistor, 300V, 200mA, 360mW, Alternate KiCAD Library"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "BC817-25,215"
-			(at 128.778 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc028fb5-637b-41d9-b32e-dbeb1a4110d5")
-		)
-		(pin "2"
-			(uuid "41414d05-97c3-45b0-8173-521dd0e9494b")
-		)
-		(pin "3"
-			(uuid "c2336676-db78-4897-9287-a2d3f02ffbb8")
-		)
-		(instances
-			(project "PLC4UNIPCB"
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
-					(reference "Q?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -978,16 +1058,16 @@
 	)
 	(symbol
 		(lib_id "GP8211S-TC50:R_0603")
-		(at 107.95 106.68 270)
-		(mirror x)
+		(at 100.33 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6250ea23-0bad-48fc-9449-2697eb82d19c")
-		(property "Reference" "R?"
-			(at 106.6799 109.22 0)
+		(property "Reference" "R21"
+			(at 102.87 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,8 +1075,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.4K"
-			(at 109.2199 109.22 0)
+		(property "Value" "10K"
+			(at 102.87 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1085,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 96.52 106.68 0)
+			(at 100.33 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 106.68 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1103,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 107.95 106.68 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1112,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 107.95 106.68 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,11 +1129,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
-					(reference "R?")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1069,7 +1149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bbbf662-8d9e-4371-87ad-946e7b34b4ea")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR041"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -1117,9 +1197,90 @@
 			(uuid "c2409aee-9b3c-40db-a295-edf8b5b48d6e")
 		)
 		(instances
-			(project "PLC4UNIPCB"
+			(project ""
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
-					(reference "#PWR012")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_BJT_AKL:BC817")
+		(at 116.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c800c796-b642-4593-a4e5-48428714f61c")
+		(property "Reference" "Q2"
+			(at 121.92 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 121.92 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/7b5ea7386544f524d0315334956093bb/BC817-16.215.pdf"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-23 transistor, 45V, 500mA, 250mW, Complementary to BC807, Alternate KiCAD Library"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f89970c5-2ce8-4c6d-9ced-26fb2920b304")
+		)
+		(pin "3"
+			(uuid "735143b5-aff4-4378-8bf9-43cdb5346b7c")
+		)
+		(pin "2"
+			(uuid "76fcedd1-fc55-4d59-83a1-2ec36efbed1c")
+		)
+		(instances
+			(project "PLC4UNIPCB"
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1135,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb35cc24-c611-42fa-bc38-209f7c59a3f8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR040"
 			(at 119.38 91.44 0)
 			(effects
 				(font
@@ -1183,9 +1344,83 @@
 			(uuid "ffaf0aea-e167-44e1-a408-412b572b7908")
 		)
 		(instances
-			(project "PLC4UNIPCB"
+			(project ""
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
-					(reference "#PWR011")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 100.33 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfaa7c18-8234-4c8c-8d16-606ab9436b7a")
+		(property "Reference" "#PWR039"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 100.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10fe1f09-1577-41bf-a292-062290ad309e")
+		)
+		(instances
+			(project ""
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/27c9874e-724a-49e5-be4f-e6cf4f8914b4"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/ec765b85-69ea-4c2e-a942-0a3f3b20d4c9"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

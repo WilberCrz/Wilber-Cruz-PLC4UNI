@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -490,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PLC4UNIPCB.step",
       "svg": "",
       "vrml": ""
     },
@@ -584,6 +598,114 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part number",
+          "name": "Part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltaje",
+          "name": "Voltaje",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltaje ",
+          "name": "Voltaje ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "10V",
+          "name": "10V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -591,7 +713,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -621,6 +743,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -649,10 +779,6 @@
     [
       "4e043843-9092-4e16-9c41-7d1516f6f132",
       "PLC4UNI"
-    ],
-    [
-      "253ff188-3e0d-433d-bf9c-a456b24e8b47",
-      "RS485_protection"
     ],
     [
       "c6bbb3ed-b60d-44fc-9c2e-d61ac846ae2a",
@@ -685,14 +811,6 @@
     [
       "958801d9-c9be-42d7-90ca-cda10621adf1",
       "Output_4-20mA"
-    ],
-    [
-      "179fa2a1-8ebb-4d08-91f9-c19535201df9",
-      "CT"
-    ],
-    [
-      "f1e654b0-25b3-4d21-b120-b723826c6cea",
-      "VAC"
     ],
     [
       "59861780-d6fb-414a-827f-edc9de870fb9",
@@ -749,6 +867,10 @@
     [
       "1502bf18-a581-4d1e-b057-dc61d013381d",
       "Output_4-20mA1"
+    ],
+    [
+      "590e6e63-2d62-4ac0-9132-eafaa3d459f8",
+      "SourceProtection"
     ]
   ],
   "text_variables": {}

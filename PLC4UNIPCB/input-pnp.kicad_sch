@@ -5,7 +5,7 @@
 	(uuid "c8119745-497c-4ab3-b695-163a0b7bace0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Resistor_AKL:R_0603"
+		(symbol "GP8211S-TC50:R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor eu SMD 0603"
+			(property "ki_keywords" "R res resistor us SMD 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,9 +79,35 @@
 				)
 			)
 			(symbol "R_0603_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.762 1.905) (xy -0.762 1.143) (xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381)
+						(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -94,7 +120,7 @@
 			(symbol "R_0603_0_2"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
+						(xy -2.54 -2.54) (xy -1.778 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -106,22 +132,106 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
+						(xy -1.778 -1.778) (xy -1.524 -1.524)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy -1.778 -0.762) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.762 0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.254 -1.27) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.254 1.27) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.762 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.778 0.762) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -207,7 +317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT_AKL:2SA2018"
+		(symbol "PCM_Transistor_BJT_AKL:BC817"
 			(pin_names
 				(hide yes)
 			)
@@ -223,7 +333,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2SA2018"
+			(property "Value" "BC817"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -232,8 +342,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-416"
-				(at 5.08 -2.54 0)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -241,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/8bbe87b96a6ee2683f1239fbf67f0559/2sa2018tl-e.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/7b5ea7386544f524d0315334956093bb/BC817-16.215.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -250,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PNP SOT-416 transistor, 12V, 500mA, 150mW, Alternate KiCAD Library"
+			(property "Description" "NPN SOT-23 transistor, 45V, 500mA, 250mW, Complementary to BC807, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -259,7 +369,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor PNP 2SA2018"
+			(property "ki_keywords" "transistor NPN BC817"
 				(at 0 0 0)
 				(effects
 					(font
@@ -268,37 +378,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "2SA2018_0_1"
+			(symbol "BC817_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 0.635 1.905) (xy 0.635 1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -318,7 +428,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 1.778) (xy 1.778 2.286) (xy 1.27 1.27) (xy 2.286 1.778) (xy 2.286 1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -329,7 +439,7 @@
 					)
 				)
 			)
-			(symbol "2SA2018_1_1"
+			(symbol "BC817_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -351,14 +461,14 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -369,14 +479,14 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -615,105 +725,151 @@
 		)
 	)
 	(junction
-		(at 130.81 118.11)
+		(at 119.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfec5582-72fd-4472-8b51-a50e47174cef")
+		(uuid "12e50f46-7a56-4a21-befb-1115b8b7405b")
+	)
+	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36cb321-521c-4ac3-b81b-600399d824af")
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 115.57 109.22)
+			(xy 119.38 119.38) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08db6e6b-f459-4e9c-a850-53199e700aa8")
+		(uuid "115c588d-08a3-479b-bed4-db16db3cc533")
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 146.05 118.11)
+			(xy 133.35 111.76) (xy 140.97 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "234d6487-32df-49ab-84a8-aad69d282186")
+		(uuid "662e8254-82aa-43e3-aa82-87fff974a456")
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 130.81 133.35)
+			(xy 119.38 119.38) (xy 125.73 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98173810-3548-489c-8813-96404dde7e3a")
+		(uuid "7613c783-99eb-4baa-ae92-5fa037a44ea9")
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 130.81 121.92)
+			(xy 119.38 129.54) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdd67175-98cd-4a9f-b964-07df4295d3b5")
+		(uuid "7cb1e957-f27a-487d-a1b2-9e4cbb1134c0")
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 104.14)
+			(xy 133.35 101.6) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec4fa744-c0ec-43d3-8abe-d03ef510ad7b")
+		(uuid "87b74d36-cd82-48e5-bfbb-74d29b7536cc")
 	)
 	(wire
 		(pts
-			(xy 130.81 114.3) (xy 130.81 118.11)
+			(xy 133.35 110.49) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faa095ff-ee9d-4b49-ae78-31a3a22969fb")
+		(uuid "8ef6fa9e-28d1-47d4-a638-7134562d57c4")
+	)
+	(wire
+		(pts
+			(xy 133.35 124.46) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80ffaa3-d9fe-46cf-b259-1d1763458106")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1360d8-e250-471e-b07f-939625070e7d")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22408dd-34ad-48d3-8aa0-077540929299")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb814bcd-702b-4f7b-a7f3-52c5bb1309b1")
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 114.3 109.22 180)
+		(at 101.6 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1efb07f7-53b2-4c1c-91a9-59baacb102a6")
+		(uuid "4e172f6c-f35e-4801-b495-c5a073c7cb60")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 146.05 118.11 0)
+		(at 140.97 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "64301c55-9f29-421d-9290-e7571e1bfa66")
+		(uuid "f69d8474-782a-4f96-9788-61cf767d6de4")
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 130.81 125.73 180)
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 133.35 106.68 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3323fc77-d802-4742-b225-1db1a383e48f")
-		(property "Reference" "R?"
-			(at 133.35 124.4599 0)
+		(uuid "04b06a07-96f8-46b8-afb2-244822574f97")
+		(property "Reference" "R27"
+			(at 130.81 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,8 +877,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 133.35 126.9999 0)
+		(property "Value" "2.4K"
+			(at 130.81 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,8 +886,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 130.81 114.3 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 125.73 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,8 +904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 130.81 125.73 0)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,49 +913,64 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "cabe4aca-f677-4ea9-8042-aa39728cdcc9")
+		(property "LCSC" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e4134e3a-8821-4669-b328-30180bd5f680")
+			(uuid "ed6e70d9-23e9-4016-8132-571ac26242ac")
+		)
+		(pin "2"
+			(uuid "0c6f8b7e-0e40-47f2-ac18-5c31837ca5f1")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
-					(reference "R?")
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "R34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 119.38 109.22 90)
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 107.95 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7d5931-9200-4c49-abb5-66efc10b9421")
-		(property "Reference" "R?"
-			(at 119.38 102.87 90)
+		(uuid "284b5c13-903f-4237-962e-0f3812ac9196")
+		(property "Reference" "R25"
+			(at 106.6799 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 119.38 105.41 90)
+		(property "Value" "10K"
+			(at 109.2199 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 130.81 109.22 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 96.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 109.22 0)
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,8 +987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 119.38 109.22 0)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,60 +996,64 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7101ec2b-96aa-4ce4-9e24-3a5d41e5ebd8")
+		(property "LCSC" ""
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "60acfe8c-f0c2-432b-a28e-ae44348b07b2")
+			(uuid "d87c940b-d2bb-4901-87e8-e1f8bdf4ac2f")
+		)
+		(pin "2"
+			(uuid "85b74c3b-1703-4e88-86f5-229cee7b3b03")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
-					(reference "R?")
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT_AKL:2SA2018")
-		(at 128.27 109.22 0)
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 119.38 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c09a735-c4f0-4ebc-9698-af568508a9ce")
-		(property "Reference" "Q?"
-			(at 133.35 107.9499 0)
+		(uuid "4c733174-157b-47d1-a9be-d1e15ae2da34")
+		(property "Reference" "R26"
+			(at 121.92 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2SA2018"
-			(at 133.35 110.4899 0)
+		(property "Value" "47K"
+			(at 121.92 124.4601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-416"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/8bbe87b96a6ee2683f1239fbf67f0559/2sa2018tl-e.pdf"
-			(at 128.27 109.22 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,8 +1061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP SOT-416 transistor, 12V, 500mA, 150mW, Alternate KiCAD Library"
-			(at 128.27 109.22 0)
+		(property "Datasheet" "~"
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,27 +1070,38 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "MMBT4403L"
-			(at 138.684 110.998 0)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "bb5270c4-7838-4f9a-af0c-56a1dc10dc11")
-		)
-		(pin "2"
-			(uuid "44f898a0-fc6d-4fe9-8185-3ba06799f7bb")
+		(property "LCSC" ""
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9d66408f-07f7-4c3a-aa4e-9686d8320003")
+			(uuid "d5139005-3dbb-4b58-8449-4848ce38c058")
+		)
+		(pin "2"
+			(uuid "73c052ee-30b1-4208-8fdf-aa4622008506")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
-					(reference "Q?")
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -923,15 +1109,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 133.35 0)
+		(at 119.38 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a82b8a49-bcd5-48d9-9583-fc8dae5ab433")
-		(property "Reference" "#PWR014"
-			(at 130.81 139.7 0)
+		(fields_autoplaced yes)
+		(uuid "8d59cb42-b935-48b7-9bad-b52bf1fec91a")
+		(property "Reference" "#PWR045"
+			(at 119.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +1127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 138.43 0)
+			(at 119.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +1135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 133.35 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 133.35 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 133.35 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,28 +1162,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "a67295be-6b53-42b9-85c0-726e3c065e83")
+			(uuid "b8f9b1b8-ce1c-4b6c-8191-46c21589e681")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
-					(reference "#PWR014")
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 130.81 100.33 0)
+		(lib_id "PCM_Transistor_BJT_AKL:BC817")
+		(at 130.81 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6d90afe-bd4c-4af8-a352-6cad6c9027ed")
-		(property "Reference" "#PWR013"
-			(at 130.81 104.14 0)
+		(fields_autoplaced yes)
+		(uuid "c917fbc4-5ff7-44f5-bfef-522ff3b6d15f")
+		(property "Reference" "Q3"
+			(at 135.89 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 135.89 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,8 +1214,67 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 130.81 95.25 0)
+		(property "Datasheet" "https://www.tme.eu/Document/7b5ea7386544f524d0315334956093bb/BC817-16.215.pdf"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN SOT-23 transistor, 45V, 500mA, 250mW, Complementary to BC807, Alternate KiCAD Library"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8925419-4a9a-4029-8417-a30af0d9a72c")
+		)
+		(pin "3"
+			(uuid "5b66ea8e-d71b-4b94-b816-91bab1308d30")
+		)
+		(pin "2"
+			(uuid "7be2bed3-b47d-4961-96aa-88623dfd8f2c")
+		)
+		(instances
+			(project ""
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd37a5f3-9cf0-4331-bf57-26aca863d5f8")
+		(property "Reference" "#PWR047"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 100.33 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,8 +1299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,12 +1309,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "d36a81e1-60c9-48f9-892d-ac39bc7e042d")
+			(uuid "554c8cb4-e629-4a8a-add1-2a22e96054ec")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
-					(reference "#PWR013")
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d083852f-dd52-4fe0-b4dd-3ebac76c6cf5")
+		(property "Reference" "#PWR046"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0e3e358-e6ab-4f52-b546-734befc00898")
+		)
+		(instances
+			(project "PLC4UNIPCB"
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/38f0ca6d-488a-4d63-8ce5-819a3170e6c7"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/bf6e8263-ae4a-4e0f-8b64-b3a93bce65bc"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

@@ -172,6 +172,318 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GP8211S-TC50:R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor us SMD 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.762 1.905) (xy -0.762 1.143) (xy 0 0.762) (xy 0.762 0.381) (xy 0 0) (xy -0.762 -0.381)
+						(xy 0 -0.762) (xy 0.762 -1.143) (xy 0 -1.524) (xy -0.762 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy -1.778 -0.762) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.762 0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.254 -1.27) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.254 1.27) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 0.762 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.778 0.762) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_0603_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Optocoupler_AKL:FOD817S"
 			(pin_names
 				(offset 1.016)
@@ -787,208 +1099,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor_AKL:R_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_0603"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor eu SMD 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_0603_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1676,7 +1786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1776d58f-4e73-496e-946e-effd05edcc57")
-		(property "Reference" "OC8"
+		(property "Reference" "OC5"
 			(at 127 97.7899 0)
 			(effects
 				(font
@@ -1748,7 +1858,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "OC8")
+					(reference "OC5")
 					(unit 1)
 				)
 			)
@@ -1770,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "447326e6-72ac-482c-81fb-4a3de2165900")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR060"
 			(at 151.13 124.46 0)
 			(effects
 				(font
@@ -1820,7 +1930,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "#PWR050")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1841,7 +1951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e9818ef-06aa-43d0-83a8-467ca7c0bc87")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 137.414 87.122 90)
 			(effects
 				(font
@@ -1922,7 +2032,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1944,7 +2054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "764be185-dd41-4b71-90dc-37e6485d3b34")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR059"
 			(at 151.13 81.28 0)
 			(effects
 				(font
@@ -1994,7 +2104,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "#PWR049")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2100,7 +2210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f2ec23-d9ca-407e-a92b-410b6a179399")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0101"
 			(at 123.19 86.36 0)
 			(effects
 				(font
@@ -2150,7 +2260,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "#PWR047")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9192e2cd-9fc9-4666-8cbf-9cfe7f0618b9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR056"
 			(at 115.57 124.46 0)
 			(effects
 				(font
@@ -2222,7 +2332,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "#PWR046")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2235,33 +2345,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 110.49 91.44 270)
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 123.19 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96339d63-1c9e-4574-8def-8565e676d382")
-		(property "Reference" "R38"
-			(at 110.49 85.09 90)
+		(uuid "acc80514-d707-4df4-90b3-a0bfb7838d99")
+		(property "Reference" "R34"
+			(at 120.65 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "510"
-			(at 110.49 87.63 90)
+		(property "Value" "2K"
+			(at 120.65 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 99.06 91.44 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 91.44 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,8 +2390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 110.49 91.44 0)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,22 +2399,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "de520d9b-8cf5-4476-b1ea-c70cc08eb35a")
+		(property "LCSC" ""
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3daa20bd-9329-4f28-9e0a-8aac9450b5ca")
+			(uuid "4caac0e3-2c98-4155-9b75-81dc4e4a7425")
+		)
+		(pin "2"
+			(uuid "d0df241d-1404-467b-8b4d-930f045b3c5e")
 		)
 		(instances
-			(project "Diseños de circuitos"
+			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/389c123e-9538-4704-bdfd-eda3950b0dc6"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2317,7 +2432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bef619ed-5321-4d61-9159-efa06374776e")
-		(property "Reference" "Q11"
+		(property "Reference" "Q7"
 			(at 153.67 105.4099 0)
 			(effects
 				(font
@@ -2371,6 +2486,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C39828"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b831f2cb-a91e-4329-8253-542179d89040")
 		)
@@ -2383,7 +2507,7 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "Q11")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2396,33 +2520,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 134.62 106.68 270)
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 134.62 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2eacfa2-d7d8-4410-93f4-479fdab38ba2")
-		(property "Reference" "R37"
-			(at 134.62 100.33 90)
+		(uuid "cc8bf513-5f17-481c-8fc8-98eb6c5a843f")
+		(property "Reference" "R35"
+			(at 135.8901 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 134.62 102.87 90)
+			(at 133.3501 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 123.19 106.68 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 146.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -2448,98 +2574,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0e912638-6f8c-47e4-9544-8fb2c9c30de9")
+		(property "LCSC" ""
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "143cbfdc-9bb7-4f00-ae9c-0eb6ff6a772b")
-		)
-		(instances
-			(project "Diseños de circuitos"
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/389c123e-9538-4704-bdfd-eda3950b0dc6"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 123.19 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd9bd12d-3242-479f-9221-25980ea2659c")
-		(property "Reference" "R36"
-			(at 125.73 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2K"
-			(at 125.73 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 123.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 123.19 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "612676f5-ad81-4047-81db-f8ab6a6f34d6")
 		)
 		(pin "2"
-			(uuid "9ee4d8b7-db07-40d5-aac4-5769494d99f5")
-		)
-		(pin "1"
-			(uuid "b2ee6ea4-af7b-4557-9875-2c68c671ebfd")
+			(uuid "a279cfb2-9525-4fd6-afdf-0f3cb15ff100")
 		)
 		(instances
-			(project "Diseños de circuitos"
+			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-			(project "Diseños de circuitos"
-				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/389c123e-9538-4704-bdfd-eda3950b0dc6"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4db61ca-1aac-4803-a0ee-b2bee12c7626")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR058"
 			(at 123.19 124.46 0)
 			(effects
 				(font
@@ -2605,13 +2658,92 @@
 		(instances
 			(project "Diseños de circuitos"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
-					(reference "#PWR048")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
 			(project "Diseños de circuitos"
 				(path "/65c875c0-73bd-43df-b6cd-4a685398cace/3b453a73-5bb7-4645-a7e8-6e186968fa05/389c123e-9538-4704-bdfd-eda3950b0dc6"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GP8211S-TC50:R_0603")
+		(at 110.49 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0a90ba8-3f1e-42f0-b4d3-4b5cc0345e88")
+		(property "Reference" "R33"
+			(at 111.7601 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510"
+			(at 109.2201 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d8978e-8c39-489d-9a43-82975be7144b")
+		)
+		(pin "2"
+			(uuid "8ffab8d0-4362-4643-8c5f-bc87f96168ee")
+		)
+		(instances
+			(project "PLC4UNIPCB"
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/6e0a4231-a29c-4b17-b5ca-830aaf582073"
+					(reference "R33")
 					(unit 1)
 				)
 			)

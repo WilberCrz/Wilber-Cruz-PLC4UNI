@@ -5,53 +5,27 @@
 	(uuid "2b5580b2-a1a8-479c-8ddf-9c2da30771d2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Optocoupler_AKL:FOD817S"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "EasyEDA_Lib:TLP172AM(TPL,E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "OC"
-				(at 6.35 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FOD817S"
-				(at 6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
+			(property "Reference" "U"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:SOP-6_4P-L3.7-W4.6-P2.54-LS7.0-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Optocoupler transistor output bidirectional input FOD817"
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/TLP172AM(TPL%252CE/2244324.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "Description" "Contact Form:SPST-NO(1 Form A) Voltage - Forward(Vf):1.27V Load Voltage:60V Load Voltage:60V Load Current:500mA RDS(on):1Ω Isolation Voltage(Vrms):3.75kV Turn-on time:600us Turn-off time:100us Operating Temperature:-40°C~+110°C Operating Temperature:-40°C~+1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,184 +52,513 @@
 					(hide yes)
 				)
 			)
-			(symbol "FOD817S_0_1"
-				(polyline
-					(pts
-						(xy -4.445 -0.635) (xy -3.175 -0.635)
+			(property "Manufacturer Part" "TLP172AM(TPL,E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -4.445 0.635) (xy -3.175 0.635) (xy -3.81 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -3.81 -1.27) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.1975 -2.54)
-					(mid -5.7151 0)
-					(end -3.1975 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 3.429 2.54) (xy 4.318 2.286) (xy 4.699 2.032) (xy 5.08 1.651) (xy 5.461 1.016)
-						(xy 5.715 0.381) (xy 5.715 -0.381) (xy 5.461 -1.143) (xy 4.826 -1.905) (xy 4.191 -2.286) (xy 3.302 -2.54)
-						(xy -3.81 -2.54) (xy -3.81 -2.54) (xy -4.572 -2.032) (xy -5.08 -1.778) (xy -5.588 -0.508) (xy -5.588 0.254)
-						(xy -5.588 1.016) (xy -5.08 1.778) (xy -4.318 2.286) (xy -3.556 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.01)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 0.508) (xy -0.127 0.508) (xy -0.508 0.381) (xy -0.508 0.635) (xy -0.127 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 -0.508) (xy -0.127 -0.508) (xy -0.508 -0.635) (xy -0.508 -0.381) (xy -0.127 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.635) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.651) (xy 2.921 -1.143) (xy 3.429 -2.159) (xy 2.413 -1.651) (xy 2.413 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 3.1975 2.54)
-					(mid 5.7151 0)
-					(end 3.1975 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "FOD817S_1_1"
-				(pin passive line
-					(at -3.81 5.08 270)
-					(length 2.54)
-					(name "~"
+			(property "Manufacturer" "TOSHIBA(东芝)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2152276"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1 Form A(SPSTNO) 负载AC,DC 负载电压60V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP172AM(TPL,E_1_0"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -5.08 7.62) (xy -5.08 7.62) (xy -5.08 -7.62) (xy -5.08 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 0.508) (xy -4.318 0.508) (xy -4.318 0.508) (xy -5.08 -0.762) (xy -5.08 -0.762) (xy -5.842 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 -0.762) (xy -4.318 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0.508) (xy -1.27 2.286) (xy -1.27 2.286) (xy -1.778 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.032) (xy -1.27 -0.254) (xy -1.27 -0.254) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.286) (xy -1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.254) (xy -1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 8.636) (xy 3.81 6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.842) (xy 3.81 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 4.826 5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.302) (xy 3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.524) (xy 3.81 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 5.842 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -4.318) (xy 3.81 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 4.826 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.858) (xy 3.81 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 7.62) (xy 5.588 8.89) (xy 5.588 8.89) (xy 8.636 8.89) (xy 8.636 8.89) (xy 8.636 7.62)
+						(xy 8.636 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.08) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.08) (xy 3.81 5.08) (xy 3.81 5.08) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 5.842 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 1.27) (xy 7.62 1.27) (xy 7.62 1.27) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.016) (xy 7.62 -1.016) (xy 7.62 -1.016) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -2.54) (xy 5.842 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -5.08) (xy 3.81 -5.08) (xy 3.81 -5.08) (xy 4.826 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -7.62) (xy 5.842 -8.89) (xy 5.842 -8.89) (xy 8.636 -8.89) (xy 8.636 -8.89) (xy 8.636 -7.62)
+						(xy 8.636 -7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -3.302) (xy 8.382 -3.302) (xy 8.382 -3.302) (xy 7.62 -4.572) (xy 7.62 -4.572) (xy 6.858 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -4.572) (xy 8.382 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 5.08) (xy 6.858 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 3.81) (xy 6.858 3.81) (xy 6.858 3.81) (xy 7.62 5.08) (xy 7.62 5.08) (xy 8.382 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -270,46 +573,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -3.81 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -324,10 +591,46 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor_AKL:R_0603"
+		(symbol "PCM_SparkFun-Resistor:4.7k_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -338,24 +641,40 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 1.27 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_0603"
-				(at 2.54 -1.27 0)
+			(property "Value" "4.7k"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -364,8 +683,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "PROD_ID" "RES-07857"
+				(at 0 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -373,16 +692,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor eu SMD 0603"
+			(property "ki_keywords" "SparkFun R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -400,23 +710,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_0_2"
+			(symbol "4.7k_0603_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -428,7 +725,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -438,23 +735,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "R_0603_1_1"
+			(symbol "4.7k_0603_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at -2.54 0 0)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -471,8 +756,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 2.54 0 180)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -481,169 +766,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_0603_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -755,242 +877,81 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 130.81 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e85ad213-263c-46d8-91b7-5d213f268f5e")
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 123.19 127)
+			(xy 128.27 123.19) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "065d5d0e-2768-454c-b1b1-d57f521e7592")
+		(uuid "013df768-1be2-4e0b-a168-6e2c767f92c3")
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 130.81 113.03)
+			(xy 156.21 107.95) (xy 166.37 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "092b100b-7b21-4bcf-b2a7-2415d1c3d21b")
+		(uuid "140a5e97-5991-4854-9a38-90c49eb6eabd")
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 123.19 101.6)
+			(xy 158.75 134.62) (xy 158.75 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "439072f2-0e36-4755-8d35-e08575f2dfd4")
+		(uuid "1dd17367-0bb0-48c2-8bf9-71afcfcc0aba")
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 139.7 110.49)
+			(xy 110.49 107.95) (xy 116.84 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c733062-3f73-4247-8308-c6679a34cd66")
+		(uuid "42a26a6e-c4f7-4f66-83e6-796ef94e2b78")
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 130.81 125.73)
+			(xy 158.75 123.19) (xy 156.21 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e252fa2-74bd-4595-8385-a958060ea00d")
+		(uuid "ad64c1ca-da68-41dd-9f25-ceb975f955c7")
 	)
 	(wire
 		(pts
-			(xy 130.81 109.22) (xy 130.81 110.49)
+			(xy 121.92 107.95) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e390f90-85f9-4d0c-a233-ee058f12ab08")
-	)
-	(wire
-		(pts
-			(xy 123.19 109.22) (xy 123.19 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d6434e-b021-40c1-b325-38b8798c2fdc")
-	)
-	(wire
-		(pts
-			(xy 123.19 127) (xy 123.19 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1d4572-d5f4-492a-b57f-e3c0f6fc155d")
-	)
-	(wire
-		(pts
-			(xy 130.81 99.06) (xy 130.81 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b0a9b1-6dc1-4709-807d-506a2cb6dbb4")
+		(uuid "bc8da659-247a-4d36-917d-9d7a4a4e4963")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 139.7 110.49 0)
+		(at 166.37 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "57e88d61-0f97-49cd-97ea-d489882473a4")
+		(uuid "8d64a756-87a2-49d6-b531-2c52d077ef33")
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 110.49 127 180)
+		(at 110.49 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1000,44 +961,33 @@
 		(uuid "f97ee572-d868-4fdc-95ae-85282ae4c6a3")
 	)
 	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 130.81 105.41 180)
+		(lib_id "EasyEDA_Lib:TLP172AM(TPL,E")
+		(at 140.97 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17011627-53d3-4d4b-b40a-9efcb436a215")
-		(property "Reference" "R20"
-			(at 133.35 104.1399 0)
+		(uuid "55b00b35-c273-4647-99e5-3a6f71f3afca")
+		(property "Reference" "U2"
+			(at 142.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 133.35 106.6799 0)
+		(property "Value" "~"
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 105.41 0)
+		(property "Footprint" "EasyEDA_Lib:SOP-6_4P-L3.7-W4.6-P2.54-LS7.0-BL"
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,8 +995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 130.81 105.41 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TLP172AM(TPL%252CE/2244324.html"
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,76 +1004,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a24cfdf7-37ef-4a77-9f69-9d165e9607c2")
-		)
-		(pin "1"
-			(uuid "17bc164c-2c75-44d7-85e3-e5245c938531")
-		)
-		(instances
-			(project ""
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Optocoupler_AKL:FOD817S")
-		(at 127 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "220f5d7e-93fd-4014-8790-218500e5ccc9")
-		(property "Reference" "OC9"
-			(at 134.62 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FOD817S"
-			(at 134.62 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-			(at 121.92 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
-			(at 127 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
-			(at 127 118.11 0)
+		(property "Description" "Contact Form:SPST-NO(1 Form A) Voltage - Forward(Vf):1.27V Load Voltage:60V Load Voltage:60V Load Current:500mA RDS(on):1Ω Isolation Voltage(Vrms):3.75kV Turn-on time:600us Turn-off time:100us Operating Temperature:-40°C~+110°C Operating Temperature:-40°C~+1"
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,104 +1013,71 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LTV-354"
-			(at 137.414 119.38 0)
+		(property "Manufacturer Part" "TLP172AM(TPL,E"
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "699959c0-0457-484f-8d6f-fcc84189cb49")
+		(property "Manufacturer" "TOSHIBA(东芝)"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2152276"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1 Form A(SPSTNO) 负载AC,DC 负载电压60V"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "31a2535a-0d68-468d-9add-4c6edaea5f5e")
-		)
-		(pin "2"
-			(uuid "125f7871-408f-4e8f-922c-4a830b5d65c2")
+			(uuid "ad31f6e0-f1c0-4932-b953-c386dad3dafa")
 		)
 		(pin "1"
-			(uuid "3500a665-b42a-46c3-bf57-7d4f79027991")
+			(uuid "dd155909-93d6-49cd-a655-eb4727d50277")
+		)
+		(pin "3"
+			(uuid "ecf46b82-07ae-43ad-b23d-7eab50456f3a")
+		)
+		(pin "6"
+			(uuid "f5b26207-4fdf-4f77-8ff7-7fa4660dc07f")
 		)
 		(instances
 			(project ""
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "OC10")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "OC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5645b968-772b-4a25-9cee-adf4503e941a")
-		(property "Reference" "#PWR037"
-			(at 123.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b030d3c7-877a-4a86-a364-20eddeda7d5e")
-		)
-		(instances
-			(project ""
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "#PWR037")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1236,16 +1085,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 125.73 0)
+		(at 128.27 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d4fab6a-fb39-4f50-868e-29e0bfe07703")
-		(property "Reference" "#PWR039"
-			(at 130.81 132.08 0)
+		(uuid "63d4c17f-fa37-4ff1-9d39-5113df0a1dea")
+		(property "Reference" "#PWR016"
+			(at 128.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 130.81 0)
+			(at 128.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 125.73 0)
+			(at 128.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 125.73 0)
+			(at 128.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 125.73 0)
+			(at 128.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,33 +1138,49 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a6e98a0-d49b-43f0-b19e-1df33ad25e48")
+			(uuid "7b8aa1e5-4494-4093-afe6-642b9564b996")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "#PWR0101")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "#PWR039")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 130.81 99.06 0)
+		(lib_id "PCM_SparkFun-Resistor:4.7k_0603")
+		(at 119.38 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7adcd7ef-f2a0-4357-b586-65b07a0be1a2")
-		(property "Reference" "#PWR038"
-			(at 130.81 102.87 0)
+		(uuid "667de3ef-5cc7-4f72-aa0d-1f3c38e0631e")
+		(property "Reference" "R10"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 119.38 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,8 +1188,73 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 130.81 93.98 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-07857"
+			(at 119.38 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc20f14a-20cd-4154-a269-dff589ed014c")
+		)
+		(pin "2"
+			(uuid "08b44b64-2458-4d3e-bcec-34cadeea828e")
+		)
+		(instances
+			(project "PLC4UNIPCB"
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b375a2a1-d65a-4c24-a1a6-791fa803119d")
+		(property "Reference" "#PWR017"
+			(at 158.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 99.06 0)
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 99.06 0)
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,8 +1279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 130.81 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,90 +1289,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7d5c74e-396d-4db1-9516-10895a460eb6")
+			(uuid "a6945416-8c01-482c-9162-861dde9c0d88")
 		)
 		(instances
-			(project ""
+			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "#PWR0102")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor_AKL:R_0603")
-		(at 123.19 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd95e6fb-b899-441d-afc3-ed75529b39d7")
-		(property "Reference" "R19"
-			(at 125.73 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.4k"
-			(at 125.73 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98ac5f3c-02f6-43fd-b8df-182f8e45be49")
-		)
-		(pin "1"
-			(uuid "0b0cb01d-f3bf-4b20-851a-669be26c081f")
-		)
-		(instances
-			(project ""
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/0fc95d3e-4d33-47f3-9185-73d40a4e2fdb"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/a64cb790-5c23-4d69-a66a-34b53e46be12"
-					(reference "R19")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

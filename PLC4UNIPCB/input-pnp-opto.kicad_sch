@@ -317,7 +317,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Optocoupler_AKL:FOD817S"
+		(symbol "PCM_Optocoupler_AKL:TLP293"
 			(pin_names
 				(offset 1.016)
 			)
@@ -333,7 +333,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FOD817S"
+			(property "Value" "TLP293"
 				(at 6.35 -1.27 0)
 				(effects
 					(font
@@ -342,8 +342,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-				(at -5.08 -5.08 0)
+			(property "Footprint" "PCM_Package_SO_AKL:SOP-4_4.4x2.6mm_P1.27mm"
+				(at 6.35 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -353,7 +353,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
+			(property "Datasheet" "https://www.tme.eu/Document/4529df8a9c1b6d8255594aba717bca36/TLP293-E-T.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -363,7 +363,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
+			(property "Description" "SO-4 Optocoupler, Transistor output, 3.75kV, 3us, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -372,7 +372,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Optocoupler transistor output bidirectional input FOD817"
+			(property "ki_keywords" "NPN Optocoupler transistor output TLP293"
 				(at 0 0 0)
 				(effects
 					(font
@@ -390,7 +390,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FOD817S_0_1"
+			(symbol "TLP293_0_1"
 				(polyline
 					(pts
 						(xy -4.445 -0.635) (xy -3.175 -0.635)
@@ -563,7 +563,7 @@
 					)
 				)
 			)
-			(symbol "FOD817S_1_1"
+			(symbol "TLP293_1_1"
 				(pin passive line
 					(at -3.81 5.08 270)
 					(length 2.54)
@@ -994,7 +994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00e184c7-c6b8-4a2f-872f-3fe7f87740e7")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 114.3001 99.06 0)
 			(effects
 				(font
@@ -1003,7 +1003,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.4K"
+		(property "Value" "4.7K"
 			(at 111.7601 99.06 0)
 			(effects
 				(font
@@ -1057,11 +1057,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1077,7 +1077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24954c01-d43f-42a9-8dab-2c27401b029f")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 125.73 96.5199 0)
 			(effects
 				(font
@@ -1140,11 +1140,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1160,7 +1160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593b07f8-1087-4de3-97e7-407ec2cb9c89")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -1210,22 +1210,27 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "#PWR06")
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Optocoupler_AKL:FOD817S")
+		(lib_id "PCM_Optocoupler_AKL:TLP293")
 		(at 124.46 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c8920d1-ab0d-4af3-9409-221f8020e61c")
-		(property "Reference" "OC?"
+		(fields_autoplaced yes)
+		(uuid "5a618419-888d-4027-928f-e8eed90523f4")
+		(property "Reference" "OC2"
 			(at 132.08 111.7599 0)
 			(effects
 				(font
@@ -1234,18 +1239,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FOD817S"
+		(property "Value" "TLP293"
 			(at 132.08 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP_AKL:SMDIP-4_W9.53mm"
-			(at 119.38 118.11 0)
+		(property "Footprint" "PCM_Package_SO_AKL:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
+		(property "Datasheet" "https://www.tme.eu/Document/4529df8a9c1b6d8255594aba717bca36/TLP293-E-T.pdf"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -1265,7 +1269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
+		(property "Description" "SO-4 Optocoupler, Transistor output, 3.75kV, 3us, Alternate KiCAD Library"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -1274,30 +1278,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LTV-354"
-			(at 134.874 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "1"
+			(uuid "aa9eeb60-6ffb-4cb5-9cf6-33f8db91ff9b")
 		)
 		(pin "3"
-			(uuid "eca26bf7-d026-49f4-86a0-3008fa63047f")
-		)
-		(pin "4"
-			(uuid "044d590d-3597-4cd8-b362-3ed6233fe9e8")
+			(uuid "b90e236f-5058-4a08-b3bb-469c4e73c328")
 		)
 		(pin "2"
-			(uuid "26bba899-dbf3-4a30-ab54-f5e737059879")
+			(uuid "62083c1a-f228-44a6-9547-ab7dd64e8d8f")
 		)
-		(pin "1"
-			(uuid "be79a58c-4780-424f-8834-690096b4de45")
+		(pin "4"
+			(uuid "e3b15ea9-48d8-47fb-ada0-3041ea632a52")
 		)
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "OC?")
+					(reference "OC2")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
+					(reference "OC4")
 					(unit 1)
 				)
 			)
@@ -1313,7 +1313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a960befb-6ffe-4918-a70f-982f989b3ed5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -1363,7 +1363,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "#PWR08")
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1379,7 +1383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba96c278-131e-4a9c-b99e-f03769cb803f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -1429,7 +1433,11 @@
 		(instances
 			(project "PLC4UNIPCB"
 				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/7d73415a-6d92-4775-9fde-5e791787ec39"
-					(reference "#PWR010")
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/20dd9fa8-33e5-4e01-8b4a-8cb5828152c9/ef44eee8-cd41-4527-92e2-6c408c0d0d91/993499e7-3317-45fe-8d12-a8e3207aa57a"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
