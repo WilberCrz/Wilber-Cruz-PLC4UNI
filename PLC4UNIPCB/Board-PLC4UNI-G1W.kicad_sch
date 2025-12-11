@@ -31,6 +31,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8c09c2-8056-4d3c-8be7-d3382bd86a6c")
+	)
+	(wire
+		(pts
 			(xy 125.73 40.64) (xy 125.73 31.75)
 		)
 		(stroke
@@ -491,6 +501,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba7e78a-e6d9-40b2-a8fb-98b1e1330ec3")
+	)
+	(wire
+		(pts
 			(xy 104.14 132.08) (xy 107.95 132.08)
 		)
 		(stroke
@@ -802,6 +822,17 @@
 		)
 		(uuid "765b0900-3808-4e47-bf4f-40ebd179b405")
 	)
+	(hierarchical_label "USB+"
+		(shape input)
+		(at 104.14 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e3f0a9d-c44f-460f-b84d-4a1b13f5875c")
+	)
 	(hierarchical_label "NPN_OUT1"
 		(shape output)
 		(at 190.5 76.2 0)
@@ -939,6 +970,17 @@
 			(justify left)
 		)
 		(uuid "ed7ba296-0d86-48bd-b365-91995d56cd3f")
+	)
+	(hierarchical_label "USB-"
+		(shape input)
+		(at 104.14 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0833ddb-485f-45ad-93dd-0fb09d979501")
 	)
 	(sheet
 		(at 170.18 58.42)
@@ -1572,6 +1614,36 @@
 		(pin "IN_4-20mA_2" input
 			(at 129.54 63.5 180)
 			(uuid "c44c1f7e-04d8-4733-ba60-95c4f44273d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out_4-20mA" output
+			(at 166.37 38.1 0)
+			(uuid "74285196-2a7b-4779-b5aa-acc2615c40df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB+" input
+			(at 129.54 72.39 180)
+			(uuid "53dccd58-1b71-4815-a364-a09995d930ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-" input
+			(at 129.54 74.93 180)
+			(uuid "4ab28f6b-9e3b-4397-b650-b8d7e60ef2c3")
 			(effects
 				(font
 					(size 1.27 1.27)
